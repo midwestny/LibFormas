@@ -6,8 +6,8 @@ class Circle: public LibForma
 
         double raio;
 
-        Circle(double);
-
-        virtual double area();
+        Circle(double a):raio(a){};
+	virtual ~Circle(){};
+        double area();
 
 };

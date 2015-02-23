@@ -12,8 +12,5 @@ int main()
 	std::cout<< "\nÁrea do quadrado : "<<quadrado->area()<<"\n";
 	std::cout<< "Área do triangulo : "<<triangulo->area()<<"\n";
 	std::cout<< "Área do circulo : "<<circulo->area()<<"\n";
-	delete quadrado;
- 	delete triangulo;
-	delete circulo;
 	return 0;
 }

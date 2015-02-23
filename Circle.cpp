@@ -1,9 +1,5 @@
 #include "Circle.h"
-
-Circle::Circle(double r)
-{
-	raio = r;
-}
+//#include "LibForma.h"
 
 double Circle::area()
 {

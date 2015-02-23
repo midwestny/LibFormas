@@ -1,5 +1,6 @@
 #include "LibForma.h"
-
+#ifndef SQUARE_H
+#define SQUARE_H
 class Square: public LibForma
 {
 
@@ -7,8 +8,10 @@ class Square: public LibForma
 
         double width, height;
 
-        Square(double, double);
+        Square(double a, double b):width(a),height(b){};
+	virtual ~Square(){};
 
-        virtual double area();
+        double area();
 
 };
+#endif

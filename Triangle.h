@@ -6,8 +6,8 @@ class Triangle: public LibForma
 
         double base, altura;
 
-        Triangle(double, double);
-
-        virtual double area();
+        Triangle(double a, double b):base(a),altura(b){};
+	virtual ~Triangle(){};
+        double area();
 
 };

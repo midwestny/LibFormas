@@ -1,10 +1,5 @@
 #include "Triangle.h"
-
-Triangle::Triangle(double a,double b)
-{
-	altura = a;
-	base = b;
-}
+//#include "LibForma.h"
 
 double Triangle::area()
 {

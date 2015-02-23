@@ -1,10 +1,5 @@
 #include "Square.h"
-
-Square::Square(double w,double h)
-{
-	width = w;
-	height = h;
-}
+//#include "LibForma.h"
 
 double Square::area()
 {
